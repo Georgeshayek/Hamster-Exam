@@ -1,5 +1,6 @@
 Note: it is worth noting that the project’s data is stored in a SQLite database that can be found in the project in the form of a SQLite file. Only the session of the user is stored in the memory and not the database. Also, the authenticated user's additional features are to add and delete products, as for the checkout method there is only one cart in the database and there is no database relation between the user and the cart.
 For testing purposes, I left commented code in the main class related to each task for you to uncomment and test.
+
 you can find a photo of the database schema here
 
 
@@ -30,5 +31,7 @@ For Task5: Time took me to complete(30min - 1h)
 -	The method auth.register() requests a username and a password to create a new user that is stored in the database (the password is hashed using the md5 algorithm).
 -	The method auth.AuthenticateUser() allows the user to log in by inputting his username and password. If the entered credentials are valid the method will return a session which will be used to access methods that are only available to authenticated users.
 -	As mentioned in task1 pm.addProduct() takes a product and a string (session) as parameters in order to add a product to the products table. As for the deleteProductById() method which takes an integer and string as parameters it deletes a product by ID. As mentioned above these two methods are only available to authenticated users.
+  
 Code optimization and commenting Time took me to complete(1h-2h)
+
 Thank you! please if you have any question feel free to ask!
