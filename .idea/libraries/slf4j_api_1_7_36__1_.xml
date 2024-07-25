@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="slf4j-api-1.7.36 (1)">
+    <CLASSES>
+      <root url="jar://C:/slf4j-api-1.7.36 (1).jar!/" />
+      <root url="jar://C:/sqlite-jdbc-3.46.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
